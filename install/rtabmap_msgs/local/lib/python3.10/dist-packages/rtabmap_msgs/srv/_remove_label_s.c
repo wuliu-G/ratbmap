@@ -1,0 +1,1 @@
+/home/wuliu/code/rtabmap/build/rtabmap_msgs/rosidl_generator_py/rtabmap_msgs/srv/_remove_label_s.c

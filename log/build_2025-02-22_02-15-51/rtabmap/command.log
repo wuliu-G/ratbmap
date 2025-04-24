@@ -1,0 +1,6 @@
+Invoking command in '/home/wuliu/code/rtabmap/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wuliu/code/rtabmap/src/rtabmap -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wuliu/code/rtabmap/install/rtabmap
+Invoked command in '/home/wuliu/code/rtabmap/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wuliu/code/rtabmap/src/rtabmap -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wuliu/code/rtabmap/install/rtabmap
+Invoking command in '/home/wuliu/code/rtabmap/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wuliu/code/rtabmap/build/rtabmap
+Invoked command in '/home/wuliu/code/rtabmap/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wuliu/code/rtabmap/build/rtabmap
+Invoking command in '/home/wuliu/code/rtabmap/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wuliu/code/rtabmap/build/rtabmap
+Invoked command in '/home/wuliu/code/rtabmap/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wuliu/code/rtabmap/build/rtabmap

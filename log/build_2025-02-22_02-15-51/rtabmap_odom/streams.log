@@ -1,0 +1,147 @@
+[0.019s] Invoking command in '/home/wuliu/code/rtabmap/build/rtabmap_odom': AMENT_PREFIX_PATH=/home/wuliu/code/rtabmap/install/rtabmap_util:/home/wuliu/code/rtabmap/install/rtabmap_sync:/home/wuliu/code/rtabmap/install/rtabmap_conversions:/home/wuliu/code/rtabmap/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wuliu/code/rtabmap/install/rtabmap_util:/home/wuliu/code/rtabmap/install/rtabmap_sync:/home/wuliu/code/rtabmap/install/rtabmap_conversions:/home/wuliu/code/rtabmap/install/rtabmap_msgs:/home/wuliu/code/rtabmap/install/rtabmap:/opt/ros/humble LD_LIBRARY_PATH=/home/wuliu/code/rtabmap/install/rtabmap_util/lib:/home/wuliu/code/rtabmap/install/rtabmap_sync/lib:/home/wuliu/code/rtabmap/install/rtabmap_conversions/lib:/home/wuliu/code/rtabmap/install/rtabmap_msgs/lib:/home/wuliu/code/rtabmap/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/wuliu/code/rtabmap/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/wuliu/code/rtabmap/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/wuliu/code/rtabmap/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/wuliu/code/rtabmap/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wuliu/code/rtabmap/src/rtabmap_ros/rtabmap_odom -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wuliu/code/rtabmap/install/rtabmap_odom
+[0.066s] -- The C compiler identification is GNU 11.4.0
+[0.109s] -- The CXX compiler identification is GNU 11.4.0
+[0.116s] -- Detecting C compiler ABI info
+[0.177s] -- Detecting C compiler ABI info - done
+[0.182s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.182s] -- Detecting C compile features
+[0.182s] -- Detecting C compile features - done
+[0.184s] -- Detecting CXX compiler ABI info
+[0.252s] -- Detecting CXX compiler ABI info - done
+[0.256s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.256s] -- Detecting CXX compile features
+[0.257s] -- Detecting CXX compile features - done
+[0.260s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.376s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.419s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.478s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.515s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.520s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.526s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.535s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.548s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.590s] -- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)
+[0.593s] -- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+[0.634s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.636s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.653s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.660s] -- Looking for pthread.h
+[0.726s] -- Looking for pthread.h - found
+[0.727s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.792s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.793s] -- Found Threads: TRUE  
+[0.832s] -- Found message_filters: 4.3.5 (/opt/ros/humble/share/message_filters/cmake)
+[0.835s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.847s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.874s] -- Checking for module 'eigen3'
+[0.888s] --   Found eigen3, version 3.4.0
+[0.922s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.922s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.955s] -- Checking for module 'flann'
+[0.968s] --   Found flann, version 1.9.1
+[1.010s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.010s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.827s] -- Checking for module 'libusb-1.0'
+[1.843s] --   Found libusb-1.0, version 1.0.25
+[1.882s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.883s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.944s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.055s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.060s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.067s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.172s] -- Found Qhull version 8.0.2
+[2.281s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.384s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.385s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.386s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.386s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.387s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.387s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.387s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.388s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.388s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.389s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.390s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.390s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.391s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.392s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.392s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.393s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.393s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.394s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.395s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.395s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.396s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.396s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.404s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.406s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.406s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.409s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[2.424s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.424s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.490s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[2.505s] -- Found rtabmap_conversions: 0.21.10 (/home/wuliu/code/rtabmap/install/rtabmap_conversions/share/rtabmap_conversions/cmake)
+[2.549s] -- Found rtabmap_util: 0.21.10 (/home/wuliu/code/rtabmap/install/rtabmap_util/share/rtabmap_util/cmake)
+[2.675s] -- Found rtabmap_sync: 0.21.10 (/home/wuliu/code/rtabmap/install/rtabmap_sync/share/rtabmap_sync/cmake)
+[2.784s] -- Configuring done
+[3.012s] -- Generating done
+[3.051s] -- Build files have been written to: /home/wuliu/code/rtabmap/build/rtabmap_odom
+[3.069s] Invoked command in '/home/wuliu/code/rtabmap/build/rtabmap_odom' returned '0': AMENT_PREFIX_PATH=/home/wuliu/code/rtabmap/install/rtabmap_util:/home/wuliu/code/rtabmap/install/rtabmap_sync:/home/wuliu/code/rtabmap/install/rtabmap_conversions:/home/wuliu/code/rtabmap/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wuliu/code/rtabmap/install/rtabmap_util:/home/wuliu/code/rtabmap/install/rtabmap_sync:/home/wuliu/code/rtabmap/install/rtabmap_conversions:/home/wuliu/code/rtabmap/install/rtabmap_msgs:/home/wuliu/code/rtabmap/install/rtabmap:/opt/ros/humble LD_LIBRARY_PATH=/home/wuliu/code/rtabmap/install/rtabmap_util/lib:/home/wuliu/code/rtabmap/install/rtabmap_sync/lib:/home/wuliu/code/rtabmap/install/rtabmap_conversions/lib:/home/wuliu/code/rtabmap/install/rtabmap_msgs/lib:/home/wuliu/code/rtabmap/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/wuliu/code/rtabmap/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/wuliu/code/rtabmap/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/wuliu/code/rtabmap/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/wuliu/code/rtabmap/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wuliu/code/rtabmap/src/rtabmap_ros/rtabmap_odom -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wuliu/code/rtabmap/install/rtabmap_odom
+[3.073s] Invoking command in '/home/wuliu/code/rtabmap/build/rtabmap_odom': AMENT_PREFIX_PATH=/home/wuliu/code/rtabmap/install/rtabmap_util:/home/wuliu/code/rtabmap/install/rtabmap_sync:/home/wuliu/code/rtabmap/install/rtabmap_conversions:/home/wuliu/code/rtabmap/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wuliu/code/rtabmap/install/rtabmap_util:/home/wuliu/code/rtabmap/install/rtabmap_sync:/home/wuliu/code/rtabmap/install/rtabmap_conversions:/home/wuliu/code/rtabmap/install/rtabmap_msgs:/home/wuliu/code/rtabmap/install/rtabmap:/opt/ros/humble LD_LIBRARY_PATH=/home/wuliu/code/rtabmap/install/rtabmap_util/lib:/home/wuliu/code/rtabmap/install/rtabmap_sync/lib:/home/wuliu/code/rtabmap/install/rtabmap_conversions/lib:/home/wuliu/code/rtabmap/install/rtabmap_msgs/lib:/home/wuliu/code/rtabmap/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/wuliu/code/rtabmap/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/wuliu/code/rtabmap/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/wuliu/code/rtabmap/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/wuliu/code/rtabmap/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wuliu/code/rtabmap/build/rtabmap_odom
+[3.125s] [  8%] [32mBuilding CXX object CMakeFiles/rtabmap_odom.dir/src/OdometryROS.cpp.o[0m
+[25.163s] [ 16%] [32m[1mLinking CXX shared library librtabmap_odom.so[0m
+[25.869s] [ 16%] Built target rtabmap_odom
+[25.890s] [ 41%] [32mBuilding CXX object CMakeFiles/rtabmap_odom_plugins.dir/src/nodelets/stereo_odometry.cpp.o[0m
+[25.890s] [ 41%] [32mBuilding CXX object CMakeFiles/rtabmap_odom_plugins.dir/src/nodelets/rgbd_odometry.cpp.o[0m
+[25.890s] [ 41%] [32mBuilding CXX object CMakeFiles/rtabmap_odom_plugins.dir/src/nodelets/icp_odometry.cpp.o[0m
+[56.446s] [ 50%] [32m[1mLinking CXX shared library librtabmap_odom_plugins.so[0m
+[57.487s] [ 50%] Built target rtabmap_odom_plugins
+[57.507s] [ 75%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbd_odometry.dir/src/RGBDOdometryNode.cpp.o[0m
+[57.507s] [ 75%] [32mBuilding CXX object CMakeFiles/rtabmap_stereo_odometry.dir/src/StereoOdometryNode.cpp.o[0m
+[57.507s] [ 75%] [32mBuilding CXX object CMakeFiles/rtabmap_icp_odometry.dir/src/ICPOdometryNode.cpp.o[0m
+[67.390s] [ 83%] [32m[1mLinking CXX executable icp_odometry[0m
+[67.703s] [ 91%] [32m[1mLinking CXX executable rgbd_odometry[0m
+[67.734s] [100%] [32m[1mLinking CXX executable stereo_odometry[0m
+[69.186s] [100%] Built target rtabmap_icp_odometry
+[69.513s] [100%] Built target rtabmap_rgbd_odometry
+[69.514s] [100%] Built target rtabmap_stereo_odometry
+[69.525s] Invoked command in '/home/wuliu/code/rtabmap/build/rtabmap_odom' returned '0': AMENT_PREFIX_PATH=/home/wuliu/code/rtabmap/install/rtabmap_util:/home/wuliu/code/rtabmap/install/rtabmap_sync:/home/wuliu/code/rtabmap/install/rtabmap_conversions:/home/wuliu/code/rtabmap/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wuliu/code/rtabmap/install/rtabmap_util:/home/wuliu/code/rtabmap/install/rtabmap_sync:/home/wuliu/code/rtabmap/install/rtabmap_conversions:/home/wuliu/code/rtabmap/install/rtabmap_msgs:/home/wuliu/code/rtabmap/install/rtabmap:/opt/ros/humble LD_LIBRARY_PATH=/home/wuliu/code/rtabmap/install/rtabmap_util/lib:/home/wuliu/code/rtabmap/install/rtabmap_sync/lib:/home/wuliu/code/rtabmap/install/rtabmap_conversions/lib:/home/wuliu/code/rtabmap/install/rtabmap_msgs/lib:/home/wuliu/code/rtabmap/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/wuliu/code/rtabmap/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/wuliu/code/rtabmap/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/wuliu/code/rtabmap/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/wuliu/code/rtabmap/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wuliu/code/rtabmap/build/rtabmap_odom
+[69.527s] Invoking command in '/home/wuliu/code/rtabmap/build/rtabmap_odom': AMENT_PREFIX_PATH=/home/wuliu/code/rtabmap/install/rtabmap_util:/home/wuliu/code/rtabmap/install/rtabmap_sync:/home/wuliu/code/rtabmap/install/rtabmap_conversions:/home/wuliu/code/rtabmap/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wuliu/code/rtabmap/install/rtabmap_util:/home/wuliu/code/rtabmap/install/rtabmap_sync:/home/wuliu/code/rtabmap/install/rtabmap_conversions:/home/wuliu/code/rtabmap/install/rtabmap_msgs:/home/wuliu/code/rtabmap/install/rtabmap:/opt/ros/humble LD_LIBRARY_PATH=/home/wuliu/code/rtabmap/install/rtabmap_util/lib:/home/wuliu/code/rtabmap/install/rtabmap_sync/lib:/home/wuliu/code/rtabmap/install/rtabmap_conversions/lib:/home/wuliu/code/rtabmap/install/rtabmap_msgs/lib:/home/wuliu/code/rtabmap/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/wuliu/code/rtabmap/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/wuliu/code/rtabmap/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/wuliu/code/rtabmap/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/wuliu/code/rtabmap/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wuliu/code/rtabmap/build/rtabmap_odom
+[69.533s] -- Install configuration: "Release"
+[69.533s] -- Execute custom install script
+[69.534s] -- Symlinking: /home/wuliu/code/rtabmap/install/rtabmap_odom/share/rtabmap_odom/environment/library_path.sh
+[69.542s] -- Symlinking: /home/wuliu/code/rtabmap/install/rtabmap_odom/share/rtabmap_odom/environment/library_path.dsv
+[69.549s] -- Symlinking: /home/wuliu/code/rtabmap/install/rtabmap_odom/lib/rtabmap_odom/rgbd_odometry
+[69.556s] -- Symlinking: /home/wuliu/code/rtabmap/install/rtabmap_odom/lib/rtabmap_odom/icp_odometry
+[69.563s] -- Symlinking: /home/wuliu/code/rtabmap/install/rtabmap_odom/lib/rtabmap_odom/stereo_odometry
+[69.571s] -- Symlinking: /home/wuliu/code/rtabmap/install/rtabmap_odom/share/ament_index/resource_index/package_run_dependencies/rtabmap_odom
+[69.578s] -- Symlinking: /home/wuliu/code/rtabmap/install/rtabmap_odom/share/ament_index/resource_index/parent_prefix_path/rtabmap_odom
+[69.586s] -- Symlinking: /home/wuliu/code/rtabmap/install/rtabmap_odom/share/rtabmap_odom/environment/ament_prefix_path.sh
+[69.594s] -- Symlinking: /home/wuliu/code/rtabmap/install/rtabmap_odom/share/rtabmap_odom/environment/ament_prefix_path.dsv
+[69.602s] -- Symlinking: /home/wuliu/code/rtabmap/install/rtabmap_odom/share/rtabmap_odom/environment/path.sh
+[69.609s] -- Symlinking: /home/wuliu/code/rtabmap/install/rtabmap_odom/share/rtabmap_odom/environment/path.dsv
+[69.616s] -- Symlinking: /home/wuliu/code/rtabmap/install/rtabmap_odom/share/rtabmap_odom/local_setup.bash
+[69.624s] -- Symlinking: /home/wuliu/code/rtabmap/install/rtabmap_odom/share/rtabmap_odom/local_setup.sh
+[69.631s] -- Symlinking: /home/wuliu/code/rtabmap/install/rtabmap_odom/share/rtabmap_odom/local_setup.zsh
+[69.639s] -- Symlinking: /home/wuliu/code/rtabmap/install/rtabmap_odom/share/rtabmap_odom/local_setup.dsv
+[69.646s] -- Symlinking: /home/wuliu/code/rtabmap/install/rtabmap_odom/share/rtabmap_odom/package.dsv
+[69.654s] -- Symlinking: /home/wuliu/code/rtabmap/install/rtabmap_odom/share/ament_index/resource_index/packages/rtabmap_odom
+[69.662s] -- Symlinking: /home/wuliu/code/rtabmap/install/rtabmap_odom/share/ament_index/resource_index/rclcpp_components/rtabmap_odom
+[69.670s] -- Symlinking: /home/wuliu/code/rtabmap/install/rtabmap_odom/share/rtabmap_odom/cmake/ament_cmake_export_dependencies-extras.cmake
+[69.678s] -- Symlinking: /home/wuliu/code/rtabmap/install/rtabmap_odom/share/rtabmap_odom/cmake/ament_cmake_export_include_directories-extras.cmake
+[69.686s] -- Symlinking: /home/wuliu/code/rtabmap/install/rtabmap_odom/share/rtabmap_odom/cmake/ament_cmake_export_targets-extras.cmake
+[69.693s] -- Symlinking: /home/wuliu/code/rtabmap/install/rtabmap_odom/share/rtabmap_odom/cmake/ament_cmake_export_libraries-extras.cmake
+[69.701s] -- Symlinking: /home/wuliu/code/rtabmap/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomConfig.cmake
+[69.708s] -- Symlinking: /home/wuliu/code/rtabmap/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomConfig-version.cmake
+[69.716s] -- Symlinking: /home/wuliu/code/rtabmap/install/rtabmap_odom/share/rtabmap_odom/package.xml
+[69.723s] -- Installing: /home/wuliu/code/rtabmap/install/rtabmap_odom/lib/librtabmap_odom.so
+[69.726s] -- Set runtime path of "/home/wuliu/code/rtabmap/install/rtabmap_odom/lib/librtabmap_odom.so" to ""
+[69.726s] -- Installing: /home/wuliu/code/rtabmap/install/rtabmap_odom/lib/librtabmap_odom_plugins.so
+[69.731s] -- Set runtime path of "/home/wuliu/code/rtabmap/install/rtabmap_odom/lib/librtabmap_odom_plugins.so" to ""
+[69.731s] -- Installing: /home/wuliu/code/rtabmap/install/rtabmap_odom/include
+[69.731s] -- Installing: /home/wuliu/code/rtabmap/install/rtabmap_odom/include/rtabmap_odom
+[69.731s] -- Installing: /home/wuliu/code/rtabmap/install/rtabmap_odom/include/rtabmap_odom/visibility.h
+[69.732s] -- Installing: /home/wuliu/code/rtabmap/install/rtabmap_odom/include/rtabmap_odom/OdometryROS.h
+[69.732s] -- Installing: /home/wuliu/code/rtabmap/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomExport.cmake
+[69.732s] -- Installing: /home/wuliu/code/rtabmap/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomExport-release.cmake
+[69.734s] Invoked command in '/home/wuliu/code/rtabmap/build/rtabmap_odom' returned '0': AMENT_PREFIX_PATH=/home/wuliu/code/rtabmap/install/rtabmap_util:/home/wuliu/code/rtabmap/install/rtabmap_sync:/home/wuliu/code/rtabmap/install/rtabmap_conversions:/home/wuliu/code/rtabmap/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wuliu/code/rtabmap/install/rtabmap_util:/home/wuliu/code/rtabmap/install/rtabmap_sync:/home/wuliu/code/rtabmap/install/rtabmap_conversions:/home/wuliu/code/rtabmap/install/rtabmap_msgs:/home/wuliu/code/rtabmap/install/rtabmap:/opt/ros/humble LD_LIBRARY_PATH=/home/wuliu/code/rtabmap/install/rtabmap_util/lib:/home/wuliu/code/rtabmap/install/rtabmap_sync/lib:/home/wuliu/code/rtabmap/install/rtabmap_conversions/lib:/home/wuliu/code/rtabmap/install/rtabmap_msgs/lib:/home/wuliu/code/rtabmap/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/wuliu/code/rtabmap/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/wuliu/code/rtabmap/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/wuliu/code/rtabmap/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/wuliu/code/rtabmap/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wuliu/code/rtabmap/build/rtabmap_odom

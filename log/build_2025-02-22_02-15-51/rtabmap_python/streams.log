@@ -1,0 +1,23 @@
+[0.406s] Invoking command in '/home/wuliu/code/rtabmap/build/rtabmap_python': PYTHONPATH=/home/wuliu/code/rtabmap/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wuliu/code/rtabmap/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wuliu/code/rtabmap/build/rtabmap_python/build --no-deps symlink_data
+[0.577s] running develop
+[0.678s] running egg_info
+[0.678s] creating rtabmap_python.egg-info
+[0.678s] writing rtabmap_python.egg-info/PKG-INFO
+[0.678s] writing dependency_links to rtabmap_python.egg-info/dependency_links.txt
+[0.679s] writing entry points to rtabmap_python.egg-info/entry_points.txt
+[0.679s] writing requirements to rtabmap_python.egg-info/requires.txt
+[0.679s] writing top-level names to rtabmap_python.egg-info/top_level.txt
+[0.679s] writing manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[0.679s] reading manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[0.680s] writing manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[0.681s] running build_ext
+[0.681s] Creating /home/wuliu/code/rtabmap/install/rtabmap_python/lib/python3.10/site-packages/rtabmap-python.egg-link (link to .)
+[0.681s] 
+[0.681s] Installed /home/wuliu/code/rtabmap/build/rtabmap_python
+[0.682s] running symlink_data
+[0.682s] creating /home/wuliu/code/rtabmap/install/rtabmap_python/share/ament_index
+[0.682s] creating /home/wuliu/code/rtabmap/install/rtabmap_python/share/ament_index/resource_index
+[0.682s] creating /home/wuliu/code/rtabmap/install/rtabmap_python/share/ament_index/resource_index/packages
+[0.682s] symbolically linking /home/wuliu/code/rtabmap/build/rtabmap_python/resource/rtabmap_python -> /home/wuliu/code/rtabmap/install/rtabmap_python/share/ament_index/resource_index/packages
+[0.682s] symbolically linking /home/wuliu/code/rtabmap/build/rtabmap_python/package.xml -> /home/wuliu/code/rtabmap/install/rtabmap_python/share/rtabmap_python
+[0.702s] Invoked command in '/home/wuliu/code/rtabmap/build/rtabmap_python' returned '0': PYTHONPATH=/home/wuliu/code/rtabmap/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wuliu/code/rtabmap/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wuliu/code/rtabmap/build/rtabmap_python/build --no-deps symlink_data

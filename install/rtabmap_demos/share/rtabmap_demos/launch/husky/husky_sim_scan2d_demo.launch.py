@@ -1,0 +1,1 @@
+/home/wuliu/code/rtabmap/src/rtabmap_ros/rtabmap_demos/launch/husky/husky_sim_scan2d_demo.launch.py

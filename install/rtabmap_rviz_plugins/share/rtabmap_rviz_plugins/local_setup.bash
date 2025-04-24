@@ -1,0 +1,1 @@
+/home/wuliu/code/rtabmap/build/rtabmap_rviz_plugins/ament_cmake_environment_hooks/local_setup.bash

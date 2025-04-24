@@ -1,0 +1,1 @@
+/home/wuliu/code/rtabmap/build/rtabmap_msgs/rosidl_generator_c/rtabmap_msgs/srv/detail/list_labels__struct.h

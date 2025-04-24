@@ -1,0 +1,1 @@
+/home/wuliu/code/rtabmap/build/rtabmap_msgs/rosidl_typesupport_fastrtps_c/rtabmap_msgs/msg/detail/point3f__rosidl_typesupport_fastrtps_c.h

@@ -1,0 +1,1 @@
+/home/wuliu/code/rtabmap/build/rtabmap_msgs/rosidl_generator_c/rtabmap_msgs/srv/detail/reset_pose__type_support.h

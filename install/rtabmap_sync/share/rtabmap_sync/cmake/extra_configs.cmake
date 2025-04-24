@@ -1,0 +1,1 @@
+/home/wuliu/code/rtabmap/build/rtabmap_sync/cmake/extra_configs.cmake

@@ -1,0 +1,6 @@
+/home/wuliu/code/rtabmap/install/rtabmap_util/lib/librtabmap_util_plugins.so
+/home/wuliu/code/rtabmap/install/rtabmap_util/include/rtabmap_util/visibility.h
+/home/wuliu/code/rtabmap/install/rtabmap_util/include/rtabmap_util/MapsManager.h
+/home/wuliu/code/rtabmap/install/rtabmap_util/include/rtabmap_util/ULogToRosout.h
+/home/wuliu/code/rtabmap/install/rtabmap_util/share/rtabmap_util/cmake/rtabmap_utilExport.cmake
+/home/wuliu/code/rtabmap/install/rtabmap_util/share/rtabmap_util/cmake/rtabmap_utilExport-release.cmake

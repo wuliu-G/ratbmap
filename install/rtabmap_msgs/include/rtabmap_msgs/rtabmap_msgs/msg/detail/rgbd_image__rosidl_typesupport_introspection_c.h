@@ -1,0 +1,1 @@
+/home/wuliu/code/rtabmap/build/rtabmap_msgs/rosidl_typesupport_introspection_c/rtabmap_msgs/msg/detail/rgbd_image__rosidl_typesupport_introspection_c.h

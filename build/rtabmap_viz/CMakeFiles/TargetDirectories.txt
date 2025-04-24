@@ -1,0 +1,10 @@
+/home/wuliu/code/rtabmap/build/rtabmap_viz/CMakeFiles/uninstall.dir
+/home/wuliu/code/rtabmap/build/rtabmap_viz/CMakeFiles/rtabmap_viz_uninstall.dir
+/home/wuliu/code/rtabmap/build/rtabmap_viz/CMakeFiles/rtabmap_viz.dir
+/home/wuliu/code/rtabmap/build/rtabmap_viz/CMakeFiles/test.dir
+/home/wuliu/code/rtabmap/build/rtabmap_viz/CMakeFiles/edit_cache.dir
+/home/wuliu/code/rtabmap/build/rtabmap_viz/CMakeFiles/rebuild_cache.dir
+/home/wuliu/code/rtabmap/build/rtabmap_viz/CMakeFiles/list_install_components.dir
+/home/wuliu/code/rtabmap/build/rtabmap_viz/CMakeFiles/install.dir
+/home/wuliu/code/rtabmap/build/rtabmap_viz/CMakeFiles/install/local.dir
+/home/wuliu/code/rtabmap/build/rtabmap_viz/CMakeFiles/install/strip.dir
